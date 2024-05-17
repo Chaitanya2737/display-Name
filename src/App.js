@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Display full name</h1>
+        <h1>Full Name Display</h1>
         <form onSubmit={handleSubmit}>
           <div>
             <label htmlFor="fname">First Name</label>
@@ -38,7 +38,7 @@ function App() {
       </div>
      {
       showdata && <div>
-      Full name: {name.fname} {name.lname}
+      Full Name : {name.fname} {name.lname}
     </div>
      } 
     </>

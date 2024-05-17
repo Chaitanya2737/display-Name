@@ -28,7 +28,7 @@ function App() {
         <h1>Full Name Display</h1>
         <form onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="fname">First Name:</label>
+            <label htmlFor="fname">First Name</label>
             <input 
               onChange={handleChange} 
               type="text" 
@@ -39,7 +39,7 @@ function App() {
             />
           </div>
           <div>
-            <label htmlFor="lname">Last Name:</label>
+            <label htmlFor="lname">Last Name</label>
             <input 
               onChange={handleChange} 
               type="text" 
@@ -53,7 +53,7 @@ function App() {
         </form>
       </div>
       {showData && (
-        <div>
+        <div id="fullNameDisplay">
           Full Name: {name.fname} {name.lname}
         </div>
       )}
